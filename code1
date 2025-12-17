@@ -214,7 +214,7 @@ def main():
         writer = csv.writer(f)
 
         writer.writerow([
-            "model","prompt_type","run_idx",
+            "model","prompt_type",
             "elapsed_sec",
             "peak_cpu%","peak_ram%","peak_gpu%","peak_vram_mb",
             "avg_cpu%","avg_ram%","avg_gpu%","avg_vram_mb",
